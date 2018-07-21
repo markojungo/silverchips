@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Open+Sans|Playfair+Display|Fugaz+One');
+
+// FONT FAMILIES
+$ff-Oswald: "Oswald", serif;
+$ff-Open-sans: "Open Sans", sans-serif;
+$ff-Playfair-Display: "Playfair Display", sans-serif;
+$ff-Fugaz-One: "Fugaz One", serif;
+
+// TYPOGRAPHY CLASSES
+@mixin t1 {
+    font-size: 1.5rem;
+    line-height: 1.75;
+}
+@mixin t2 {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+@mixin t3 {
+    font-size: 1rem;
+    line-height: 1.25
+}
+@mixin s1 {
+    font-size: 0.8rem;
+    line-height: 1.25;
+}
+@mixin s2 {
+    font-size: 0.6rem;
+    line-height: 1;
+}

@@ -1,0 +1,15 @@
+@import "../lib/bootstrap/card"
+
+.card {
+    > .list-group:first-child {
+        .list-group-item:first-child {
+          @include border-top-radius(0);
+        }
+      }
+    
+    > .list-group:last-child {
+      .list-group-item:last-child {
+        @include border-bottom-radius(0);
+      }
+    }
+}
